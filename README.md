@@ -1,5 +1,7 @@
 ## Description
-This is Windows batch file adds the Particl Core and Particl Desktop folders (including their corresponding executables) to the Windows Defender exclussion list. In addition, the batch script adds new Windows Firewall rules that allow in/out bound traffic towards the Particl Core and Particl Desktop related services.
+This is Windows batch that aims to help people running Particl Desktop on Windows. When application for the first time, the Particl Desktop downloads the latest version of the Particl Core and starts it. Next the Particl Core will attempt to sync the blockchain from the dscratch/genesis. to PartThe Particl Core in its turn will The Windows Defender  It adds the Particl Core and Particl Desktop folders (including their corresponding executables) to the Windows Defender exclussion list. 
+
+In addition, it adds a few rules to the Windows Firewall that allow the in/out bound traffic towards Particl Core and Particl Desktop related services.
 
 ## Usage instructions
 1. Download a Particl Desktop build in compressed file (.zip) form from here:   
